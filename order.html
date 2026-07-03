@@ -1,86 +1,48 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Order Flowers - Maua Atelier</title>
+    <title>Order</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="lightpink">
+<body>
 
-<center>
+<div class="page">
+    <div class="navbar">
+        <h2>Maua Atelier</h2>
+        <div>
+            <a href="index.html">Home</a>
+            <a href="flowers.html">Flowers</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="order.html">Order</a>
+            <a href="about.html">About Us</a>
+        </div>
+    </div>
 
-<h1>Maua Atelier</h1>
+    <h1>Order Your Flowers</h1>
 
-<p>
-<a href="index.html">Home</a> |
-<a href="about.html">About Us</a> |
-<a href="flowers.html">Flowers</a> |
-<a href="order.html">Order Now</a>
-</p>
+    <form>
+        <label>Full Name:</label>
+        <input type="text">
 
-<hr>
+        <label>Email:</label>
+        <input type="email">
 
-<h2>Order Flowers</h2>
+        <label>Phone Number:</label>
+        <input type="tel">
 
-<form>
+        <label>Choose Flower:</label>
+        <select>
+            <option>Rose Bouquet</option>
+            <option>Lily Bouquet</option>
+            <option>Tulip Bouquet</option>
+        </select>
 
-<label>Full Name:</label><br>
-<input type="text"><br><br>
+        <label>Delivery Date:</label>
+        <input type="date">
 
-<label>Email Address:</label><br>
-<input type="email"><br><br>
-
-<label>Phone Number:</label><br>
-<input type="tel"><br><br>
-
-<label>Delivery Date:</label><br>
-<input type="date"><br><br>
-
-<label>Number of Bouquets:</label><br>
-<input type="number"><br><br>
-
-<label>Flower Type:</label><br>
-
-<select>
-<option>Rose Bouquet</option>
-<option>Lily Bouquet</option>
-<option>Tulip Bouquet</option>
-<option>Mixed Bouquet</option>
-</select>
-
-<br><br>
-
-<label>Delivery Method:</label><br>
-
-<input type="radio" name="delivery"> Pick Up
-
-<input type="radio" name="delivery"> Home Delivery
-
-<br><br>
-
-<label>Additional Services:</label><br>
-
-<input type="checkbox"> Gift Wrapping
-
-<input type="checkbox"> Greeting Card
-
-<br><br>
-
-<textarea rows="5" cols="30">
-Special Instructions
-</textarea>
-
-<br><br>
-
-<input type="submit" value="Place Order">
-
-</form>
-
-<hr>
-
-<footer>
-    <p>&copy; 2026 Maua Atelier</p>
-</footer>
-
-</center>
+        <button type="submit">Submit Order</button>
+    </form>
+</div>
 
 </body>
 </html>
